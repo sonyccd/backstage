@@ -35,8 +35,10 @@ import {
   errorApiRef,
   fetchApiRef,
   githubAuthApiRef,
+  identityApiRef,
 } from '@backstage/core-plugin-api';
 import { AuthProxyDiscoveryApi } from './AuthProxyDiscoveryApi';
+import { visitsApiRef, VisitsWebStorageApi } from '@backstage/plugin-home';
 
 export const apis: AnyApiFactory[] = [
   createApiFactory({
@@ -75,6 +77,16 @@ export const apis: AnyApiFactory[] = [
           githubAuthApi,
         }),
       ]),
+  }),
+
+  createApiFactory({
+    api: visitsApiRef,
+    deps: {
+      identityApi: identityApiRef,
+      errorApi: errorApiRef,
+    },
+    factory: ({ identityApi, errorApi }) =>
+      VisitsWebStorageApi.create({ identityApi, errorApi }),
   }),
 
   createApiFactory(costInsightsApiRef, new ExampleCostInsightsClient()),
