@@ -1,5 +1,19 @@
 # @backstage/frontend-app-api
 
+## 0.1.1-next.0
+
+### Patch Changes
+
+- 66d51a4827: Prevents root extension override and duplicated plugin extensions.
+- Updated dependencies
+  - @backstage/config@1.1.0
+  - @backstage/core-app-api@1.10.0
+  - @backstage/core-components@0.13.5
+  - @backstage/core-plugin-api@1.6.0
+  - @backstage/frontend-plugin-api@0.1.0
+  - @backstage/types@1.1.1
+  - @backstage/plugin-graphiql@0.2.54
+
 ## 0.1.0
 
 ### Minor Changes

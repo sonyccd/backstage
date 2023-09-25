@@ -1,5 +1,21 @@
 # @backstage/plugin-scaffolder-react
 
+## 1.5.6-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.8.5-next.0
+  - @backstage/catalog-client@1.4.4
+  - @backstage/catalog-model@1.4.2
+  - @backstage/core-components@0.13.5
+  - @backstage/core-plugin-api@1.6.0
+  - @backstage/errors@1.2.2
+  - @backstage/theme@0.4.2
+  - @backstage/types@1.1.1
+  - @backstage/version-bridge@1.0.5
+  - @backstage/plugin-scaffolder-common@1.4.1
+
 ## 1.5.5
 
 ### Patch Changes

@@ -1,5 +1,24 @@
 # @backstage/cli
 
+## 0.22.14-next.0
+
+### Patch Changes
+
+- 21cd3b1b24: Added a template for creating `node-library` packages with `yarn new`.
+- de42eebaaf: Bumped dev dependencies `@types/node` and `mock-fs`.
+- 3ef18f8c06: Explicitly set `exports: 'named'` for CJS builds, ensuring that they have e.g. `exports["default"] = catalogPlugin;`
+- Updated dependencies
+  - @backstage/integration@1.7.1-next.0
+  - @backstage/cli-common@0.1.13-next.0
+  - @backstage/catalog-model@1.4.2
+  - @backstage/cli-node@0.1.5-next.0
+  - @backstage/config@1.1.0
+  - @backstage/config-loader@1.5.1-next.0
+  - @backstage/errors@1.2.2
+  - @backstage/eslint-plugin@0.1.3
+  - @backstage/release-manifests@0.0.10
+  - @backstage/types@1.1.1
+
 ## 0.22.13
 
 ### Patch Changes

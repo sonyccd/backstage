@@ -1,5 +1,24 @@
 # @backstage/plugin-catalog-react
 
+## 1.8.5-next.0
+
+### Patch Changes
+
+- a402e1dfb9: Fixed an issue causing `EntityPage` to show an error for entities containing special characters
+- Updated dependencies
+  - @backstage/integration@1.7.1-next.0
+  - @backstage/catalog-client@1.4.4
+  - @backstage/catalog-model@1.4.2
+  - @backstage/core-components@0.13.5
+  - @backstage/core-plugin-api@1.6.0
+  - @backstage/errors@1.2.2
+  - @backstage/theme@0.4.2
+  - @backstage/types@1.1.1
+  - @backstage/version-bridge@1.0.5
+  - @backstage/plugin-catalog-common@1.0.16
+  - @backstage/plugin-permission-common@0.7.8
+  - @backstage/plugin-permission-react@0.4.15
+
 ## 1.8.4
 
 ### Patch Changes

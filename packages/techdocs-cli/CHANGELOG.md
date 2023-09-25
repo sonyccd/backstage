@@ -1,5 +1,17 @@
 # @techdocs/cli
 
+## 1.5.1-next.0
+
+### Patch Changes
+
+- de42eebaaf: Bumped dev dependencies `@types/node` and `mock-fs`.
+- Updated dependencies
+  - @backstage/cli-common@0.1.13-next.0
+  - @backstage/backend-common@0.19.6-next.0
+  - @backstage/plugin-techdocs-node@1.8.1-next.0
+  - @backstage/catalog-model@1.4.2
+  - @backstage/config@1.1.0
+
 ## 1.5.0
 
 ### Minor Changes

@@ -246,5 +246,22 @@
     "@backstage/plugin-vault-backend": "0.3.8",
     "@backstage/plugin-xcmetrics": "0.2.43"
   },
-  "changesets": []
+  "changesets": [
+    "big-spies-beam",
+    "chatty-papayas-care",
+    "dull-bugs-build",
+    "dull-experts-kiss",
+    "dull-laws-camp",
+    "four-jars-protect",
+    "gentle-spies-deny",
+    "large-comics-knock",
+    "moody-lobsters-rescue",
+    "perfect-pumas-protect",
+    "pretty-steaks-serve",
+    "quick-weeks-explode",
+    "silent-years-bake",
+    "small-pugs-build",
+    "tasty-doors-switch",
+    "wild-jobs-greet"
+  ]
 }

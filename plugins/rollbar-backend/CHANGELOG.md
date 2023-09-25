@@ -1,5 +1,14 @@
 # @backstage/plugin-rollbar-backend
 
+## 0.1.49-next.0
+
+### Patch Changes
+
+- 407f4284be: ensure rollbar token is hidden
+- Updated dependencies
+  - @backstage/backend-common@0.19.6-next.0
+  - @backstage/config@1.1.0
+
 ## 0.1.48
 
 ### Patch Changes
